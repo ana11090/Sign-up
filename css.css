@@ -1,0 +1,79 @@
+html{
+    background-image: linear-gradient(to right, #1f1c4a, #9084df,#1f1c4a);
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 30px;
+    
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 28px;
+    border: 0px solid #6f697d;
+    border-radius: 25px;
+    background: #8c63eb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8c63eb), to(#50378a));
+    background: -moz-linear-gradient(top, #8c63eb, #50378a);
+    background: linear-gradient(to bottom, #8c63eb, #50378a);
+    -webkit-box-shadow: #bfb4d7 0px 0px 40px 0px;
+    -moz-box-shadow: #bfb4d7 0px 0px 40px 0px;
+    box-shadow: #bfb4d7 0px 0px 40px 0px;
+    text-shadow: #504b5a 1px 3px 1px;
+    font: normal normal bold 19px arial;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.button:hover,
+.button:focus {
+    border: 0px solid #9f96b3;
+    background: #a877ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a877ff), to(#6042a6));
+    background: -moz-linear-gradient(top, #a877ff, #6042a6);
+    background: linear-gradient(to bottom, #a877ff, #6042a6);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #543b8d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#543b8d), to(#50378a));
+    background: -moz-linear-gradient(top, #543b8d, #50378a);
+    background: linear-gradient(to bottom, #543b8d, #50378a);
+}
+
+.write{
+
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width: 70%;
+    
+
+    
+ 
+}
+.write:not(:last-child){margin-bottom: 20px;} 
+
+textarea:focus, input:focus{
+    outline: none;
+}
